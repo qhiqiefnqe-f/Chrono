@@ -64,6 +64,8 @@ flutter run
 
 4. **视图切换**：
    - 点击底部导航栏切换视图
+## UI灵感来演
+@Ruchi Sharma
 
 ## 许可证
 
