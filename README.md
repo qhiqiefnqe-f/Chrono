@@ -1,6 +1,7 @@
 # Chrono - 日历任务管理应用
 
 一个使用 Flutter 开发的简洁日历任务管理应用。
+此应用使用cursor开发。
 
 ## 截图
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
@@ -75,7 +76,7 @@ flutter run
 
 4. **视图切换**：
    - 点击底部导航栏切换视图
-## UI灵感来演
+## UI灵感来源
 @Ruchi Sharma
 
 ## 许可证
