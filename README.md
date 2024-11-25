@@ -2,6 +2,11 @@
 
 一个使用 Flutter 开发的简洁日历任务管理应用。
 
+## 截图
+![today](qq_pic_merged_1732540852760.jpg)
+![today](qq_pic_merged_1732540868013.jpg)
+![calender](qq_pic_merged_1732540876721.jpg)
+
 ## 功能特点
 
 - 📅 日历视图：支持日视图和今日任务视图切换
