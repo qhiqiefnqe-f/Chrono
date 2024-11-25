@@ -3,9 +3,20 @@
 一个使用 Flutter 开发的简洁日历任务管理应用。
 
 ## 截图
-![today](qq_pic_merged_1732540852760.jpg)
-![today](qq_pic_merged_1732540868013.jpg)
-![calender](qq_pic_merged_1732540876721.jpg)
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <img src="qq_pic_merged_1732540852760.jpg" width="250" alt="今日视图"/>
+    <p><b>今日视图</b></p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <img src="qq_pic_merged_1732540868013.jpg" width="250" alt="任务编辑"/>
+    <p><b>任务编辑</b></p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <img src="qq_pic_merged_1732540876721.jpg" width="250" alt="日历视图"/>
+    <p><b>日历视图</b></p>
+  </div>
+</div>
 
 ## 功能特点
 
