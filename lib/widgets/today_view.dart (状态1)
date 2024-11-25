@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+import 'package:sliding_up_panel/sliding_up_panel.dart';
+import 'today/time_display.dart';
+import 'today/tasks_panel.dart';
+import 'today/tasks_chart.dart';
+
+class TodayView extends StatelessWidget {
+  const TodayView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Column(
+          children: [
+            const SizedBox(height: 20),
+            const TimeDisplay(),
+            const SizedBox(height: 20),
+            const Expanded(child: TasksChart()),
+          ],
+        ),
+        SlidingUpPanel(
+          minHeight: 300,
+          maxHeight: 180, // TimeDisplay高度(140) + 上下间距(40)
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+          panel: const TasksPanel(),
+          body: Container(),
+        ),
+      ],
+    );
+  }
+} 

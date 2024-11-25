@@ -1,0 +1,31 @@
+name: calendar_app
+description: A modern calendar application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sliding_up_panel: ^2.0.0+1
+  date_picker_timeline: ^1.2.3
+  google_fonts: ^6.1.0
+  provider: ^6.0.5
+  intl: ^0.18.0
+  fl_chart: ^0.65.0
+  table_calendar: ^3.0.9
+  calendar_view: ^1.0.4
+  syncfusion_flutter_calendar: ^23.1.44
+  sqflite: ^2.3.2
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
